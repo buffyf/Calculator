@@ -1,5 +1,6 @@
 function btnplus()
-{document.calculator.display.value += "+";}
+{document.calculator.display.value += "+";
+}
 function btnsub()
 {document.calculator.display.value += "-";}
 function btnmult()
@@ -8,4 +9,8 @@ function btndiv()
 {document.calculator.display.value += "/";}
 function btnclear() 
     {document.calculator.display.value = "";}
+
+
+
+   
 
